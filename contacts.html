@@ -10,7 +10,7 @@
 <body>
     <nav>
         <ul>
-        <li><a href="index.html"><img src="img/5bd8a9a0-61b7-4766-b0e1-345104ea2e57.jpg" alt="логотип" width="15%" height="15%"></a></li>
+        <li><a href="index.html"><img src="img/5bd8a9a0-61b7-4766-b0e1-345104ea2e57.jpg" alt="логотип" width="110px" height="100px"></a></li>
         <li><a href="about.html">О себе</a></li>
         <li><a href="summary.html">Резюме</a></li>
         <li><a href="portfolio.html">Портфолио</a></li>
@@ -26,9 +26,14 @@
     <h3>Есть вопросы?</h3>
     <p>Как вам убодно получить ответ?</p>
     <div>
-    <p><input type="radio" name="answer" id="contactChoice1">по почте</p>
-    <p><input type="radio" name="answer" id="contactChoice2">по телефону</p>
-    <p><input type="radio" name="answer" id="contactChoice3">не нужно ответчать</p>
+    <input type="radio" name="answer" id="contactChoice1">
+    <label for="contactChoice1">по телефону</label>
+    <br>
+    <input type="radio" name="answer" id="contactChoice2">
+    <label for="contactChoice2">по почте</label>
+    <br>
+    <input type="radio" name="answer" id="contactChoice3">
+    <label for="contactChoice3">не отвечать</label>
     </div>
     <p>Укажите тему вопрпоса?</p>
     <div>
@@ -39,9 +44,14 @@
     </div>
     <p>И еще один вопрос?</p>
     <div>
-        <p><input type="checkbox" name="question2">так</p>
-        <p><input type="checkbox" name="question2">не так</p>
-        <p><input type="checkbox" name="question2">иначе</p>
+        <input type="checkbox" name="question1">
+        <label for="question1">так</label>
+        <br>
+        <input type="checkbox" name="question2">
+        <label for="question2">не так</label>
+        <br>
+        <input type="checkbox" name="question3">
+        <label for="question3">иначе</label>
         <p>Ваше имя <input type="text" name="name"></p>
         <p>Email <input type="email" name="email"></p>
         <p>номер телефона <input type="text" name="phone"></p>

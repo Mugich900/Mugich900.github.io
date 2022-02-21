@@ -1,6 +1,27 @@
+
+
 body{
-    background-color: rgb(115, 148, 95);
+    background-color: rgb(167, 223, 223);
+}
+
+.summary_table{
+    background-color: #fff;
+}
+
+nav{
+    position: absolute;
+    left: 89%;
+    right: 0;
+    top: 0%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 p{
-    color: rgb(92, 10, 10);
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    background-color: blueviolet;
 }
