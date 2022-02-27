@@ -19,8 +19,8 @@ a{
 }
 
 a:hover {
-    color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */  
-    text-decoration: underline; /* Добавляем подчеркивание */
+    color: #750909;
+    text-decoration: underline;
    }
 
 .c_black, nav li a{
