@@ -21,13 +21,42 @@ a{
 a:hover {
     color: #750909;
     text-decoration: underline;
-   }
+}
 
 .c_black, nav li a{
     background-color: #000000;
     color: rgb(221, 221, 221);
 }
+.compet {
+    display: flex;
+    justify-content: space-evenly;
+  }
+.item {
+    width: 8%;
+    margin-right: 20px;
+  }
+  
+.item img {
+    display: block;
+    max-width: 100%
+}
 
+.center_h{
+    text-align: center;
+}
+
+.last_block{
+    text-align: center;
+    font-weight: 500;
+    margin:0px;
+    padding:20px;
+    max-width:100%;
+}
+.last_block button{
+    padding: 10px 32px;
+    font-size: 18px;
+    border-radius: 8px;
+}
 body{
     margin: 0%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
