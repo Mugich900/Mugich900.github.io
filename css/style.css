@@ -1,10 +1,39 @@
-
-
-body{
-    background-color: rgb(167, 223, 223);
+header{
+    position: absolute;
+    margin-left: 60rem;
+    margin-top: 10rem;
+}
+ul.nav_hr{
+    margin: 0px;
+    padding: 0px;
 }
 
-.summary_table{
+ul.nav_hr li{
+    display: inline;
+    padding: 2rem;
+    margin-right: 6rem;
+}
+a{
+    text-decoration: none;
+    text-transform: none;
+}
+
+a:hover {
+    color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+   }
+
+.c_black, nav li a{
+    background-color: #000000;
+    color: rgb(221, 221, 221);
+}
+
+body{
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*.summary_table{
     background-color: #fff;
 }
 
@@ -24,4 +53,4 @@ p{
 }
 h1{
     background-color: blueviolet;
-}
+}*/
