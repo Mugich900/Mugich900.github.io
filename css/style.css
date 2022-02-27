@@ -34,6 +34,7 @@ a:hover {
 .item {
     width: 8%;
     margin-right: 20px;
+    text-align: center;
   }
   
 .item img {
