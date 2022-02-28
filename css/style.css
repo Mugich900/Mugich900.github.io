@@ -58,6 +58,29 @@ a:hover {
     font-size: 18px;
     border-radius: 8px;
 }
+.first_block{
+    display: flex;
+}
+.left_h{
+    margin-left: 1rem;
+}
+.first_block p{
+    text-align: left;
+    max-width: 50%;
+    margin-left: 1rem;
+}
+.first_block img{
+    margin-left: 5rem;
+    width: 35%;
+}
+.block_usl{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer p{
+    display: inline;
+    margin-left: 50%;
+}
 body{
     margin: 0%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
