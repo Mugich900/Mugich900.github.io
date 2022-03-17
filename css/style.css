@@ -7,7 +7,10 @@ ul.nav_hr{
     margin: 0px;
     padding: 0px;
 }
-
+.logo{
+    max-width: 6%;
+    min-width: 5%;
+}
 ul.nav_hr li{
     display: inline;
     padding: 2rem;
