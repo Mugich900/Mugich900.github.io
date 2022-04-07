@@ -1,0 +1,10 @@
+.big-img {
+  width: 500px;
+}
+.small-img {
+  width: 5%;
+  margin-left: 10px;
+}
+.select-img {
+  border: 1px solid red;
+}
