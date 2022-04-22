@@ -1,0 +1,16 @@
+.control_panel {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+h2 {
+  display: inline;
+}
+.news_div {
+  width: 500px;
+  /*height: 500px; */
+  background-color: aquamarine;
+  margin-left: auto;
+  margin-right: auto;
+}
