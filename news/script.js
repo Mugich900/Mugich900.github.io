@@ -10,18 +10,17 @@ function add() {
   _h.innerHTML = headText.value;
   _p.innerHTML = panelText.value;
 
-  _divControl.className = "control_panel";
+  _divControl.classList.toggle("control_panel");
   _divControl.append(_h);
   _divControl.append(_b);
 
-  _divNews.className = "news_div";
+  _divNews.classList.toggle("news_div");
   _divNews.append(_p);
   news.append(_divControl);
   news.append(_divNews);
-  collpase()
 }
 
-let container = document.querySelector(".control_panel");
+let container = document.querySelector("#news");
 container.addEventListener("click", function (e) {
   e.target.addEventListener("click", function () {
     var content = this.nextElementSibling;
